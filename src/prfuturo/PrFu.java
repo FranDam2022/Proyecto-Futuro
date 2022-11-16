@@ -7,7 +7,7 @@ public class PrFu {
         this.valor2 = valor2;
     }
 
-    public String veredicto(){
+    private String veredicto(){
         if (valor1.equals(valor2)){
         return ("Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.");}
         if (Integer.valueOf(valor1) > Integer.valueOf(valor2)){
